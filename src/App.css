@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.folder_structure {
+  background-color: #366780;
+  height: 89.9vh;
+  padding: 5px;
+  width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Editors {
+  /* border: 2px solid black; */
+  /* border-radius: 5px; */
+  width: 40%;
+  height: 91.2vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: nowrap;
+  flex-grow: 4;
+  resize: horizontal;
+  overflow: auto;
+}
+.output {
+  width: 40%;
+  overflow: hidden;
+}
+.mobile_container {
+  /* border: 3px solid green; */
+  width: 320px;
+  height: 650px;
+  position: relative;
+  left: 22.5%;
+  top: 12%;
+  margin-top: -600px;
+}
+.mobile {
+  height: 780px;
+  margin-left: -167%;
+  margin-right: -100px;
+  margin-top: -60px;
+  margin-bottom: -250px;
+  z-index: -3;
+}
+button {
+  margin-bottom: 15px;
+  border-radius: 2px;
+  border: 1px solid #366780;
+  transition: 0.2s;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: lighter;
+  background-color: #263238;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+button:hover {
+  transform: scale(1.02);
+  background-color: grey;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: xx-large;
+}
+.output_result {
+  background-color: white;
+  height: 520.5px;
+  width: 294px;
+  position: relative;
+  left: 19.91%;
+  top: 11.1%;
+  margin: 0 0 0 4.5%;
+  padding: 0;
+  overflow: hidden;
+  z-index: 2;
+  /* display: none; */
+}
+.blank_space {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  height: 70px;
+  width: 400px;
+  z-index: -1;
+  /* background-color: red; */
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bolder;
+  font-size: x-large;
 }

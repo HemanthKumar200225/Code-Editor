@@ -1,0 +1,24 @@
+.title {
+  font-family: 'Gowun Dodum', sans-serif;
+  font-weight: bold;
+  background-color: #202124;
+  color: white;
+  padding: 3px;
+  /* z-index: 2; */
+}
+.editor_box {
+  height: max-content;
+  /* border: 2px solid red; */
+  margin: 0;
+  /* resize: vertical; */
+  /* overflow: hidden; */
+  align-items: stretch;
+}
+.code_editor {
+  /* height:  */
+  resize: vertical;
+  overflow: auto;
+}
+.CodeMirror {
+  height: 100%;
+}
