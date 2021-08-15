@@ -582,7 +582,7 @@ if (window.performance) {
       <div style={{position: "absolute", margin: "10px 0 0 42px"}}><img height="40px" src={logo} alt="logo" /></div>
       <nav>Code Editor <img style={{alignItems: "flex-end", marginBottom: "-15px"}} height="50px" src={main} alt="code_pic" /></nav>
       <div className="container">
-        <div className="blank_space">Open any Editor to code</div>
+        <div className="blank_space">Open File Editor to code</div>
         <div className="folder_structure">
         <img style={{margin: "10px 0px 15px 0px"}} src={folder_pic} alt="menu" />
         <button style={{ backgroundColor: showHtml ? "":"black", color: showHtml ? "":"white"}} onClick={() => setShowhtml((s) => !s)}>index.html</button>
