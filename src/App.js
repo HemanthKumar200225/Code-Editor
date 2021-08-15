@@ -551,7 +551,7 @@ function App() {
     -webkit-transform: rotate(135deg) translate(-80%, 20%);
   }
 }`);
-  const [javascript,setJavascript] = useLocalStorage('javascript',`//the above code is just an example from https://codepen.io/kevin_David_k
+  const [javascript,setJavascript] = useLocalStorage('javascript',`//the above code is from https://codepen.io/kevin_David_k
 
 //check console if the iframe is reloaded or not!, if not it is hot-reloding
 if (window.performance) {
